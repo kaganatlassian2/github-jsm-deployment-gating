@@ -1,0 +1,11 @@
+deployments:
+  services:
+    deploymentGating:
+      enabled: true # if they want to enable the feature
+      retry: 20 # 
+      sleep: 10 #
+      environments: # users can select which environments they'd like to use this feature.
+      - Development
+      - Production
+    ids:
+    - b:YXJpOmNsb3VkOmdyYXBoOjpzZXJ2aWNlLzIwM2VkMWE0LTE0MmEtNDE0Yy1hYjY4LTA1OGMzMDBkODAxMS84OTI5NDdmOC1lMTI3LTExZWUtOTE3OS0xMjhiNDI4MTk0MjQ=
