@@ -57,6 +57,7 @@ jobs:
     runs-on: ubuntu-18.04
     name: Deploy to Staging
     environment: "Staging"
+    needs: [build]
     if: ${{ github.ref == 'refs/heads/master' }}
     steps:
       - name: Running staging deployment
