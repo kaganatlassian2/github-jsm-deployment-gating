@@ -7,4 +7,4 @@ deployments:
     - prod
   services:
     ids:
-    - b:YXJpOmNsb3VkOmdyYXBoOjpzZXJ2aWNlLzIwM2VkMWE0LTE0MmEtNDE0Yy1hYjY4LTA1OGMzMDBkODAxMS9kMGRhNzc1MC00OWI2LTExZWYtOWExNi0wYWJlM2Y0YTY2MDE=
+    - ari:cloud:graph::service/203ed1a4-142a-414c-ab68-058c300d8011/d0da7750-49b6-11ef-9a16-0abe3f4a6601
